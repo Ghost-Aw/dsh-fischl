@@ -1,0 +1,11 @@
+# 二进制文件：不做任何换行符/文本处理
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.moc3 binary
+*.cmo3 binary
+*.icn binary
+
+# 文本文件统一 LF（避免 Windows CRLF 污染 JSON/JS）
+* text=auto eol=lf

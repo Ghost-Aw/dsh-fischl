@@ -1,0 +1,8 @@
+# dsh-fischl bundle patch.
+# 原神菲谢尔主题 + Live2D 看板娘：一个双面插件行。
+# 主机端（lib/index.js）提供内置模型资源与 /fischl/api/* 接口；
+# 浏览器端（lib/client.js，经 dsh.client 声明）注册主题、看板娘与设置页签。
+
+- insert:
+    - id: fischl
+      name: 'dsh-fischl'

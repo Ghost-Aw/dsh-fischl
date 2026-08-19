@@ -1,0 +1,30 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "ParamEyeLSmile",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamEyeRSmile",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param46",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamBrowRY",
+            "Value": 0.396481990814209,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param40",
+            "Value": 1.0,
+            "Blend": "Add"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "dsh-fischl",
+  "version": "1.0.0",
+  "description": "原神菲谢尔主题 + Live2D 看板娘：星空主题外观、内置菲谢尔 Live2D 模型（含 20 种表情）、点击互动与音素口型、读书待机动作、DEEP LIVE2D 可视化设置——为 DeepSeek Harness Web 一键安装的外观插件。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "model",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "Ghost-Aw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ghost-Aw/dsh-fischl.git"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "fischl",
+    "genshin",
+    "live2d",
+    "mascot",
+    "theme",
+    "看板娘",
+    "菲谢尔"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "immediately": true
+    }
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "prepare": "node -e \"process.exit(0)\""
+  }
+}

@@ -1,0 +1,70 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "ParamEyeLOpen",
+            "Value": -1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamEyeLSmile",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamEyeROpen",
+            "Value": -1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamEyeRSmile",
+            "Value": 0.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamAngleY",
+            "Value": -7.961375713348389,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamAngleZ",
+            "Value": -8.982077598571778,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamMouthForm",
+            "Value": -0.09526407718658447,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamMouthOpenY",
+            "Value": 0.10206927359104157,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamBodyAngleY",
+            "Value": -4.559078693389893,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param55",
+            "Value": 2.384185791015625e-7,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param56",
+            "Value": -0.2313564419746399,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param57",
+            "Value": 3.5762786865234377e-7,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param41",
+            "Value": 0.2994024455547333,
+            "Blend": "Add"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "Type": "Live2D Expression",
+    "Parameters": [
+        {
+            "Id": "Param58",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "Param59",
+            "Value": 1.0,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamAngleZ",
+            "Value": 19.999998092651368,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamMouthForm",
+            "Value": 0.5107228755950928,
+            "Blend": "Add"
+        },
+        {
+            "Id": "ParamBodyAngleX",
+            "Value": 7.9968414306640629,
+            "Blend": "Add"
+        }
+    ]
+}
