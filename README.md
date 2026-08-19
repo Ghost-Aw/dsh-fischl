@@ -87,7 +87,7 @@ dsh plugin --profile web remove dsh-fischl
 - **看板娘不显示？** 确认主题已启用（通用设置 → 菲谢尔主题）；模型从插件内置目录加载，无需联网（渲染库也已内置）。
 - **模型显示异常/多手臂？** 内置模型已针对 VTS 双臂参数做适配；外部模型若有类似问题可在模型页检查参数。
 - **想要其他模型？** 使用「浏览…」选择任意 Live2D 模型文件夹即可，VTube Studio 模型也可用。
-- **渲染库从哪来？** pixi.js、Live2D Cubism Core、pixi-live2d-display 均已内置在插件包内，完全离线运行。
+- **渲染库从哪来？** pixi.js、pixi-live2d-display 已内置在插件包内；**Live2D Cubism Core 从官网 CDN 加载**（首次使用需联网，加载后由浏览器缓存，之后基本离线）。
 
 ## ⚖️ 许可证
 
