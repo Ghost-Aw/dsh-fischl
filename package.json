@@ -1,6 +1,6 @@
 {
   "name": "dsh-fischl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "原神菲谢尔主题 + Live2D 看板娘：星空主题外观、内置菲谢尔 Live2D 模型（含 20 种表情）、点击互动与音素口型、读书待机动作、DEEP LIVE2D 可视化设置——为 DeepSeek Harness Web 一键安装的外观插件。",
   "type": "module",
   "main": "lib/index.js",

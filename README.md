@@ -87,7 +87,10 @@ dsh plugin --profile web remove dsh-fischl
 - **看板娘不显示？** 确认主题已启用（通用设置 → 菲谢尔主题）；模型从插件内置目录加载，无需联网（渲染库也已内置）。
 - **模型显示异常/多手臂？** 内置模型已针对 VTS 双臂参数做适配；外部模型若有类似问题可在模型页检查参数。
 - **想要其他模型？** 使用「浏览…」选择任意 Live2D 模型文件夹即可，VTube Studio 模型也可用。
-- **渲染库从哪来？** pixi.js、pixi-live2d-display 已内置在插件包内；**Live2D Cubism Core 从官网 CDN 加载**（首次使用需联网，加载后由浏览器缓存，之后基本离线）。
+- **渲染库从哪来？** pixi.js、pixi-live2d-display、**Live2D Cubism Core 全部已内置在插件包内**（`model/fischl-libs/`），本地优先加载，完全离线可用；只有在本地文件缺失时才会依次回退到官方 CDN（Live2D 官网 → jsdelivr/fastly 镜像）。
+- **⚠️ 不要用 npm 的 `live2dcubismcore@1.0.2` 替换内置 Core。** 那是 2019 年的 Cubism 4.0 版本，它能正常加载并挂上全局对象，却**无法解析 moc3 v5**，内置模型会直接报 `Unknown error`（表现为模型不显示）。插件已内置支持 v5 的官方 Core，并会在运行时校验 Core 版本，遇到旧版会自动换源。
+- **Cubism Core 文件丢了怎么办？** 无需手动处理：host 会在首次请求时自动从 Live2D 官网下载补回到 `<插件目录>/model/fischl-libs/live2dcubismcore.min.js`。也可手动放置（需支持 moc3 v5+ 的官方 Core），插件会优先使用本地文件。
+- **想用更新的 moc3 模型？** 若外部模型的 moc3 版本高于内置 Core 支持范围，用官方最新 `live2dcubismcore.min.js` 覆盖 `model/fischl-libs/` 下的同名文件并刷新页面即可。
 
 ## ⚖️ 许可证
 
